@@ -1,5 +1,5 @@
 {
-  "name": "OmniStack10-backend",
+  "name": "omnistack10-backend",
   "version": "1.0.0",
   "description": "Application backend OmniStack10",
   "main": "./src/index.js",
@@ -12,7 +12,7 @@
     "RocketSeat"
   ],
   "author": "Kaichiro Fukuda",
-  "license": "ISC",
+  "license": "MIT",
   "private": false,
   "dependencies": {
     "axios": "^0.19.1",
@@ -23,5 +23,12 @@
   "devDependencies": {
     "nodemon": "^2.0.2"
   },
-  "repository": "https://github.com/kaichiro/OmniStack10-backend.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaichiro/OmniStack10-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaichiro/OmniStack10-backend/issues"
+  },
+  "homepage": "https://github.com/kaichiro/OmniStack10-backend#readme"
 }
